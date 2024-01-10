@@ -2,7 +2,7 @@
 
 let gif;
 
-function preload ('assets/FeinerGIF.gif');
+function preload ('Assets/FeinerGIF.gif');
 
 function setup() {
   createCanvas (windowWidth,windowHeight);
