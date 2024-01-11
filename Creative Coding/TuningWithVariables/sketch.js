@@ -2,8 +2,9 @@
 
 let gif;
 
-function preload ('Assets/FeinerGIF.gif');
-
+function preload (){
+gif = loadImage ('Assets/FeinerGIF.gif');
+}
 function setup() {
   createCanvas (windowWidth,windowHeight);
   fill ("lightblue");
